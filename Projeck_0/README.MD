@@ -1,12 +1,12 @@
 # Проект 0. Угадай число
 
 ## Оглавление  
-[1. Описание проекта](.README.md#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+[1. Описание проекта]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Описание-проекта)
+[2. Какой кейс решаем?]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Какой-кейс-решаем)  
+[3. Краткая информация о данных]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Этапы-работы-над-проектом)  
+[5. Результат]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Результат)    
+[6. Выводы]([Projeck_0/README.MD](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD)#Выводы) 
 
 ### Описание проекта    
 Угадать загаданное компьютером число за минимальное число попыток.
