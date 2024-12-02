@@ -6,7 +6,7 @@
 [2. Какой кейс решаем?](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Какой-кейс-решаем)
 [3. Краткая информация о данных](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Краткая-информация-о-данных)  
 [4. Этапы работы над проектом](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Результат)    
+[5. Результат](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Результаты)    
 [6. Выводы](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Выводы) 
 
 ### Описание проекта    
@@ -32,27 +32,27 @@
 ### Краткая информация о данных
 ....
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Оглавление)
 
 
 ### Этапы работы над проектом  
 На первом этапе
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Оглавление)
 
 
 ### Результаты:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Оглавление)
 
 
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/Projeck_0/README.MD#Оглавление)
 
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️⭐️⭐️ -дами
 
-[def]: _
+[def]:_
