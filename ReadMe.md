@@ -1,15 +1,15 @@
-# Проект 0. Угадай число
-
+# Проект: Профессия Data Science
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django)
 ## Оглавление  
-[1. Описание проекта]([.README.md](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md)#Описание-проекта)  
-[2. Какой кейс решаем?](.README.md#Какой-кейс-решаем)  
-[3. Краткая информация о данных](.README.md#Краткая-информация-о-данных)  
-[4. Этапы работы над проектом](.README.md#Этапы-работы-над-проектом)  
-[5. Результат](.README.md#Результат)    
-[6. Выводы](.README.md#Выводы) 
+[1. Описание проекта](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Описание-проекта)  
+[2. Какой кейс решаем?](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Какой-кейс-решаем)  
+[3. Краткая информация о данных](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Краткая-информация-о-данных)  
+[4. Этапы работы над проектом]([.README.md](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md)#Этапы-работы-над-проектом)  
+[5. Результат]([.README.md](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md)#Результат)    
+[6. Выводы]([.README.md](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md)#Выводы) 
 
 ### Описание проекта    
-Угадать загаданное компьютером число за минимальное число попыток.
+Прохожу обучение на проекте Scillfactory 
 
 :arrow_up:[к оглавлению](_)
 
@@ -31,25 +31,25 @@
 ### Краткая информация о данных
 ....
   
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Оглавление)
 
 
 ### Этапы работы над проектом  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Оглавление)
 
 
 ### Результаты:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Оглавление)
 
 
 ### Выводы:  
 ....
 
-:arrow_up:[к оглавлению](.README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md#Оглавление)
 
 
-Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️-дами
+Если информация по этому проекту покажется вам интересной или полезной, то я буду очень вам благодарен, если отметите репозиторий и профиль ⭐️⭐️⭐️⭐️⭐️ -дами
