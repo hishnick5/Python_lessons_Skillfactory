@@ -9,7 +9,7 @@
 [6. Выводы]([.README.md](https://github.com/hishnick5/Python_lessons_Skillfactory/blob/main/ReadMe.md)#Выводы) 
 
 ### Описание проекта    
-Прохожу обучение на проекте Scillfactory 
+Прохожу обучение на проекте Skillfactory 
 
 :arrow_up:[к оглавлению](_)
 
