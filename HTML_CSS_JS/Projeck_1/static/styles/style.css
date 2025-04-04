@@ -1,7 +1,7 @@
 
 /* Контент */
 span {
-    
+    font-style: italic;
 }
 .list-conteiner {
     display: inline-block;
@@ -59,10 +59,27 @@ img {
     border-width: 0.5px;
 }
 
-
+.text-page {
+    padding-left: 15px;
+}
 
 @media (max-width: 900px) {
     .nav-conteiner {
         flex-direction: column;
     }
+}
+
+
+.page {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 14%;
+    background-color: aquamarine;
+}
+
+.section {
+    width: 82%;
 }
