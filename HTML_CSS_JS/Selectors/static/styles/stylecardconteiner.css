@@ -21,10 +21,10 @@
     text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
     .conteiner {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2);
+        grid-template-rows: repeat(5);
     }
 }
 
