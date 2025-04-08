@@ -1,0 +1,17 @@
+
+.navbar-nav .nav-link.active {
+    color: rgb(127, 193, 255);
+}
+
+.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img {
+    width: 3rem;
+}
+
+.navbar-toggler {
+    background-color: rgb(143, 142, 142);
+}
+
