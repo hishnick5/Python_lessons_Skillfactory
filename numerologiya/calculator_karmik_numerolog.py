@@ -83,7 +83,7 @@ def calculate(input_data):
         [f"Энергия года ({c})", f"ЧД 3 ({ch_d3})", f"КУ 3 ({karmic3})", f"{period2} - {period3}"],
         [f"Предназначение ({d})", f"ЧД 4 ({ch_d4})", f"КУ 4 ({karmic4})", f"{period3} - ∞"],
         [f"Денежный канал: {fin_code}", f"Аркан: {arkan}", f"КУ 5 ({karmic5})", f"Число судьбы ({destiny})"],
-        [f"Денежный код: {money_code}", f"Ведическое число: {day_r}", f"Дата рождения: {full_date}", f"Возраст: {age} лет"]
+        [f"Денежный код: {money_code}", f"Ведическое число: {day_r}", f"Дата рождения: {full_date}", f"Возраст: {age}"]
     ]
     return full_date, table
 
