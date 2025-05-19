@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt, QDate
+from datetime import date
 
 
 def edit_numb(numb):
@@ -25,6 +26,10 @@ def calculate(input_data):
     destiny = str(sum([int(i) for i in pure]))
     while len(destiny) > 1:
         destiny = str(sum([int(i) for i in destiny]))
+
+    birth_date = date(input_data.year(), input_data.month(), input_data.day())
+    today = date.today()
+    age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
 
     arkan = sum([int(i) for i in pure])
     arkan = edit_numb(arkan)
@@ -71,13 +76,14 @@ def calculate(input_data):
     num_4 = reduce(str(int(year_r) + int(num_5)))
     num_6 = reduce(str(int(num_1) + int(num_5)))
     fin_code = num_1 + num_2 + year_r + num_4 + num_5 + num_6
-
+    
     table = [
-        [f"Супер способности ({a})", f"ЧД 1 ({ch_d1})", f"КУ 1 ({karmic1})", f"0 - {period1}"],
+        [f"Супер сила ({a})", f"ЧД 1 ({ch_d1})", f"КУ 1 ({karmic1})", f"0 - {period1}"],
         [f"Задача на жизнь ({b})", f"ЧД 2 ({ch_d2})", f"КУ 2 ({karmic2})", f"{period1} - {period2}"],
         [f"Энергия года ({c})", f"ЧД 3 ({ch_d3})", f"КУ 3 ({karmic3})", f"{period2} - {period3}"],
         [f"Предназначение ({d})", f"ЧД 4 ({ch_d4})", f"КУ 4 ({karmic4})", f"{period3} - ∞"],
-        [f"$ канал/код: {fin_code}", f"Аркан: {arkan}", f"КУ 5 ({karmic5})", f"Число судьбы ({destiny})"]
+        [f"Денежный канал: {fin_code}", f"Аркан: {arkan}", f"КУ 5 ({karmic5})", f"Число судьбы ({destiny})"],
+        [f"Денежный код: {money_code}", f"Ведическое число: {day_r}", f"Дата рождения: {full_date}", f"Возраст: {age} лет"]
     ]
     return full_date, table
 
@@ -86,7 +92,7 @@ class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Расчёт по дате рождения")
-        self.resize(1000, 500)
+        self.resize(1200, 500)
 
         self.layout = QVBoxLayout(self)
 
@@ -98,7 +104,7 @@ class MainWindow(QWidget):
         self.date_picker.setDisplayFormat("dd.MM.yyyy")
         self.date_picker.setDate(QDate.currentDate())
         self.date_picker.setFont(QFont("Arial", 12))
-        self.date_picker.setFixedWidth(self.width() // 5)  # 1/5 ширины
+        self.date_picker.setFixedWidth(self.width() // 6)  # 1/5 ширины
         self.layout.addWidget(self.date_picker)
 
         self.button = QPushButton("Рассчитать")
@@ -130,7 +136,7 @@ class MainWindow(QWidget):
             QMessageBox.critical(self, "Ошибка", f"Что-то пошло не так\n{str(e)}")
             return
 
-        headers = [f"Путь по дате: {full_date}", "Число Достижений", "Кармический Узел", "Период"]
+        headers = [f"Путь", "Число Достижений", "Кармический Узел", "Период"]
         self.table.setColumnCount(4)
         self.table.setRowCount(len(data))
         self.table.setHorizontalHeaderLabels(headers)
@@ -142,6 +148,10 @@ class MainWindow(QWidget):
                 item = QTableWidgetItem(val)
                 item.setTextAlignment(Qt.AlignCenter)
                 self.table.setItem(i, j, item)
+
+    def keyPressEvent(self, event):
+        if event.key() in (Qt.Key_Return, Qt.Key_Enter):
+            self.calculate()
 
 
 if __name__ == "__main__":
